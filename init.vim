@@ -28,8 +28,17 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug '~/my-prototype-plugin'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 Plug 'Raimondi/delimitMate'
-Plug 'joshdick/onedark.vim'
+
+Plug 'sainnhe/gruvbox-material'
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+Plug 'bfrg/vim-cpp-modern'
+
+Plug 'jackguo380/vim-lsp-cxx-highlight'
+
 
 " Initialize plugin system
 call plug#end()
@@ -44,7 +53,7 @@ set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 set background=dark
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set termguicolors
-colorscheme onedark
+colorscheme gruvbox-material
 
 
 " go to different screen with ctrl JKLH
