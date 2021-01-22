@@ -39,6 +39,10 @@ Plug 'bfrg/vim-cpp-modern'
 
 Plug 'jackguo380/vim-lsp-cxx-highlight'
 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 
 " Initialize plugin system
 call plug#end()
@@ -61,6 +65,25 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+nnoremap <<space>-J> <C-W><S-J>
+nnoremap <<space>-K> <C-W><S-K>
+nnoremap <<space>-L> <C-W><S-L>
+nnoremap <<space>-H> <C-W><S-H>
+
+
+" make it easy to toggle nerdtree and fzf
+nnoremap <C-f> :NERDTreeToggle<CR>
+nnoremap <C-p> :FZF<CR>
+
+nnoremap <C-n> :sp<CR>
+nnoremap <C-m> :vsp<CR>
+
+nnoremap <C-q> :q<CR>
+nmap <C-s> :w<CR>
+imap <C-s> <Esc>:w<CR>a
+
+nnoremap <C-t> :terminal<CR>
 
 " use escape to exit insert mode in terminal buffers
 tnoremap <Esc> <C-\><C-n>
