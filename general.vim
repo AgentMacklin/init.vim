@@ -7,12 +7,14 @@ set number
 " set tab as 4 spaces
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
-let g:UltiSnipsExpandTrigger="<PageUp>"
+let g:UltiSnipsExpandTrigger="<a-x>"
+let g:UltiSnipsJumpForwardTrigger="<a-c>"
+let g:UltiSnipsJumpBackwardTriger="<a-z>"
+
 let g:startify_custom_header = []
 
 set splitbelow
 set splitright
-
 
 " run clang-format on c/c++ files on save
 function FormatBuffer()
@@ -36,5 +38,4 @@ tnoremap <C-j> <C-\><C-n><C-w>j
 tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-l> <C-\><C-n><C-w>l
 
-hi VertSplit ctermbg=NONE guibg=NONE
 
