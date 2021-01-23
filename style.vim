@@ -8,3 +8,5 @@ colorscheme gruvbox-material
 let g:airline_theme='wombat'
 let g:airline_powerline_fonts = 1
 
+hi Normal ctermbg=NONE guibg=NONE
+

@@ -5,6 +5,17 @@ nnoremap <silent> <C-K> <C-W><C-K>
 nnoremap <silent> <C-L> <C-W><C-L>
 nnoremap <silent> <C-H> <C-W><C-H>
 
+" move windows around
+nnoremap <silent> <A-j> <C-W>J
+nnoremap <silent> <A-k> <C-W>K
+nnoremap <silent> <A-l> <C-W>L
+nnoremap <silent> <A-h> <C-W>H
+
+nnoremap <silent> <A-r> <C-W>r
+nnoremap <silent> <A-R> <C-W>R
+nnoremap <silent> <A-x> <C-W>x
+nnoremap <silent> <A-t> <C-W>T
+
 
 " make it easy to toggle nerdtree and fzf
 nnoremap <silent> <C-f> :NERDTreeToggle<CR>
@@ -23,7 +34,7 @@ imap <silent> <C-s> <Esc>:w<CR>a
 nnoremap <silent> <C-t> :terminal<CR>
 
 " open a terminal to the right
-nnoremap <silent> <C-]> <Esc>:64vsp <bar> <C-W><C-L> <bar>:terminal<CR>
+nnoremap <silent> <A-,> <Esc>:64vsp <bar> <C-W><C-L> <bar>:terminal<CR>
 
 " use escape to exit insert mode in terminal buffers
 tnoremap <silent> <Esc> <C-\><C-n>

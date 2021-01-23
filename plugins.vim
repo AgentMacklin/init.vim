@@ -30,6 +30,8 @@ Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 
 Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
 
+" removes all background colors
+Plug 'kjwon15/vim-transparent'
 
 " Initialize plugin system
 call plug#end()
