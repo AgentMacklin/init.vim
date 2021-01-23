@@ -20,14 +20,16 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" better syntax highlighting
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 " fancy startup page
 Plug 'mhinz/vim-startify'
 
 " documentation generator
 Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
+
+Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
+
 
 " Initialize plugin system
 call plug#end()

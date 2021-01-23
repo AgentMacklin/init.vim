@@ -1,5 +1,5 @@
 {
     "languageserver": {},
-    "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "php", "python"]
-
+    "coc.preferences.formatOnSaveFiletypes": ["json", "css", "markdown", "php", "python"],
+    "clangd.semanticHighlighting": true
 }

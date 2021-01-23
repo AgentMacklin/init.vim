@@ -22,6 +22,9 @@ imap <silent> <C-s> <Esc>:w<CR>a
 " open a terminal in the current buffer
 nnoremap <silent> <C-t> :terminal<CR>
 
+" open a terminal to the right
+nnoremap <silent> <C-]> <Esc>:64vsp <bar> <C-W><C-L> <bar>:terminal<CR>
+
 " use escape to exit insert mode in terminal buffers
 tnoremap <silent> <Esc> <C-\><C-n>
 
