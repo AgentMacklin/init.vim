@@ -33,6 +33,8 @@ Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
 " removes all background colors
 Plug 'kjwon15/vim-transparent'
 
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
 " Initialize plugin system
 call plug#end()
 

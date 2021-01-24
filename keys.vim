@@ -42,4 +42,7 @@ tnoremap <silent> <Esc> <C-\><C-n>
 " go back to previous file
 nnoremap <silent> gb :e#<CR>
 
+" open up the nvim config directory
 nnoremap <silent> <leader>e <Esc>:vsp ~/.config/nvim<CR>
+
+map <silent> <leader>s <Esc>:source $MYVIMRC<CR>
