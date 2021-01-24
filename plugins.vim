@@ -31,7 +31,6 @@ Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 " removes all background colors
 Plug 'kjwon15/vim-transparent'
 
-<<<<<<< HEAD
 " add closing pairs
 Plug 'jiangmiao/auto-pairs'
 
