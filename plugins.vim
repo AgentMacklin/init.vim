@@ -28,8 +28,6 @@ Plug 'mhinz/vim-startify'
 " documentation generator
 Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 
-Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
-
 " removes all background colors
 Plug 'kjwon15/vim-transparent'
 
