@@ -28,10 +28,18 @@ Plug 'mhinz/vim-startify'
 " documentation generator
 Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 
-Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
-
 " removes all background colors
 Plug 'kjwon15/vim-transparent'
+
+" add closing pairs
+Plug 'jiangmiao/auto-pairs'
+
+" makes it easier to wrap works in parentheses, quotes, etc
+Plug 'machakann/vim-sandwich'
+
+" git integration
+Plug 'tpope/vim-fugitive'
+
 
 " Initialize plugin system
 call plug#end()
