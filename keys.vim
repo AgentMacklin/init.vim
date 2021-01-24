@@ -6,10 +6,10 @@ nnoremap <silent> <C-L> <C-W><C-L>
 nnoremap <silent> <C-H> <C-W><C-H>
 
 " move windows around
-nnoremap <silent> <A-j> <C-W>J
-nnoremap <silent> <A-k> <C-W>K
-nnoremap <silent> <A-l> <C-W>L
-nnoremap <silent> <A-h> <C-W>H
+nnoremap <silent> <A-s> <C-W>J
+nnoremap <silent> <A-w> <C-W>K
+nnoremap <silent> <A-d> <C-W>L
+nnoremap <silent> <A-a> <C-W>H
 
 nnoremap <silent> <A-r> <C-W>r
 nnoremap <silent> <A-R> <C-W>R
@@ -41,3 +41,8 @@ tnoremap <silent> <Esc> <C-\><C-n>
 
 " go back to previous file
 nnoremap <silent> gb :e#<CR>
+
+" open up the nvim config directory
+nnoremap <silent> <leader>e <Esc>:vsp ~/.config/nvim<CR>
+
+map <silent> <leader>s <Esc>:source $MYVIMRC<CR>
