@@ -20,8 +20,6 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-Plug 'jackguo380/vim-lsp-cxx-highlight'
-
 " fancy startup page
 Plug 'mhinz/vim-startify'
 
@@ -29,7 +27,7 @@ Plug 'mhinz/vim-startify'
 Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 
 " removes all background colors
-Plug 'kjwon15/vim-transparent'
+" Plug 'kjwon15/vim-transparent'
 
 " add closing pairs
 Plug 'jiangmiao/auto-pairs'
@@ -41,6 +39,13 @@ Plug 'machakann/vim-sandwich'
 Plug 'tpope/vim-fugitive'
 
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
+" We recommend updating the parsers on update
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
+Plug 'nvim-treesitter/playground'
+
+" zen mode
+Plug 'junegunn/goyo.vim'
 
 " Initialize plugin system
 call plug#end()

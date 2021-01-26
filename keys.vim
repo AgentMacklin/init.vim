@@ -31,7 +31,7 @@ nmap <silent> <C-s> :w<CR>
 imap <silent> <C-s> <Esc>:w<CR>a
 
 " open a terminal in the current buffer
-nnoremap <silent> <C-t> :terminal<CR>
+nnoremap <silent> <leader>t :terminal<CR>
 
 " open a terminal to the right
 nnoremap <silent> <A-,> <Esc>:64vsp <bar> <C-W><C-L> <bar>:terminal<CR>
@@ -40,9 +40,15 @@ nnoremap <silent> <A-,> <Esc>:64vsp <bar> <C-W><C-L> <bar>:terminal<CR>
 tnoremap <silent> <Esc> <C-\><C-n>
 
 " go back to previous file
-nnoremap <silent> gb :e#<CR>
+nnoremap <silent><leader>b :e#<CR>
 
 " open up the nvim config directory
 nnoremap <silent> <leader>e <Esc>:vsp ~/.config/nvim<CR>
 
+" resource after changes
 map <silent> <leader>s <Esc>:source $MYVIMRC<CR>
+
+" enter Goyo mode
+map <silent> <leader>g <Esc>:Goyo<CR>
+
+map <silent> <leader>cm <Esc>:!note -x %:t &<CR>
