@@ -6,10 +6,10 @@ nnoremap <silent> <C-L> <C-W><C-L>
 nnoremap <silent> <C-H> <C-W><C-H>
 
 " move windows around
-nnoremap <silent> <A-s> <C-W>J
-nnoremap <silent> <A-w> <C-W>K
-nnoremap <silent> <A-d> <C-W>L
-nnoremap <silent> <A-a> <C-W>H
+nnoremap <silent> <A-j> <C-W>J
+nnoremap <silent> <A-k> <C-W>K
+nnoremap <silent> <A-l> <C-W>L
+nnoremap <silent> <A-h> <C-W>H
 
 nnoremap <silent> <A-r> <C-W>r
 nnoremap <silent> <A-R> <C-W>R
@@ -22,8 +22,8 @@ nnoremap <silent> <C-f> :NERDTreeToggle<CR>
 nnoremap <silent> <C-p> :FZF<CR>
 
 " buffer creation
-nnoremap <silent> <C-n> :sp<CR>
-nnoremap <silent> <C-m> :vsp<CR>
+nnoremap <silent> <A-,> :sp<CR>
+nnoremap <silent> <A-.> :vsp<CR>
 
 " quit and save
 nnoremap <silent> <C-q> :q<CR>
@@ -34,7 +34,7 @@ imap <silent> <C-s> <Esc>:w<CR>a
 nnoremap <silent> <leader>t :terminal<CR>
 
 " open a terminal to the right
-nnoremap <silent> <A-,> <Esc>:64vsp <bar> <C-W><C-L> <bar>:terminal<CR>
+nnoremap <silent> <leader>T <Esc>:64vsp <bar> <C-W><C-L> <bar>:terminal<CR>
 
 " use escape to exit insert mode in terminal buffers
 tnoremap <silent> <Esc> <C-\><C-n>

@@ -7,7 +7,7 @@ set number
 " set tab as 4 spaces
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
-let g:UltiSnipsExpandTrigger="<a-x>"
+let g:UltiSnipsExpandTrigger="<a-tab>"
 let g:UltiSnipsJumpForwardTrigger="<a-c>"
 let g:UltiSnipsJumpBackwardTriger="<a-z>"
 

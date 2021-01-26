@@ -42,5 +42,9 @@
     "vim",
     "yaml",
     "yml"
+  ],
+  "cSpell.userWords": [
+    "Unorderable",
+    "funcs"
   ]
 }
