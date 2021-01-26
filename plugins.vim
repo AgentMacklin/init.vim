@@ -47,6 +47,10 @@ Plug 'nvim-treesitter/playground'
 " zen mode
 Plug 'junegunn/goyo.vim'
 
+" comments
+Plug 'scrooloose/nerdcommenter'
+
+
 " Initialize plugin system
 call plug#end()
 

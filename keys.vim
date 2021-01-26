@@ -17,6 +17,13 @@ nnoremap <silent> <A-x> <C-W>x
 nnoremap <silent> <A-t> <C-W>T
 
 
+" resize windows
+nnoremap <silent> <A-H> 5<C-w><
+nnoremap <silent> <A-L> 5<C-w>>
+nnoremap <silent> <A-J> <C-w>-
+nnoremap <silent> <A-K> <C-w>+
+
+
 " make it easy to toggle nerdtree and fzf
 nnoremap <silent> <C-f> :NERDTreeToggle<CR>
 nnoremap <silent> <C-p> :FZF<CR>
@@ -27,6 +34,7 @@ nnoremap <silent> <A-.> :vsp<CR>
 
 " quit and save
 nnoremap <silent> <C-q> :q<CR>
+tnoremap <silent> <C-q> <C-\><C-n>:q<CR>
 nmap <silent> <C-s> :w<CR>
 imap <silent> <C-s> <Esc>:w<CR>a
 
@@ -34,7 +42,7 @@ imap <silent> <C-s> <Esc>:w<CR>a
 nnoremap <silent> <leader>t :terminal<CR>
 
 " open a terminal to the right
-nnoremap <silent> <leader>T <Esc>:64vsp <bar> <C-W><C-L> <bar>:terminal<CR>
+nnoremap <silent> <leader>T <Esc>:75vsp <bar> <C-W><C-L> <bar>:terminal<CR>
 
 " use escape to exit insert mode in terminal buffers
 tnoremap <silent> <Esc> <C-\><C-n>
@@ -50,5 +58,6 @@ map <silent> <leader>s <Esc>:source $MYVIMRC<CR>
 
 " enter Goyo mode
 map <silent> <leader>g <Esc>:Goyo<CR>
+
 
 map <silent> <leader>cm <Esc>:!note -x %:t &<CR>
