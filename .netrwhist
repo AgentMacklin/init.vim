@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/austen/dev/gdnms/client/src'
 let g:netrw_dirhist_3='/home/austen/.config/nvim'
 let g:netrw_dirhist_2='/home/austen/.config/nvim/UltiSnips'
 let g:netrw_dirhist_1='/home/austen/.config/nvim'

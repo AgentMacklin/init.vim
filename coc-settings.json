@@ -6,7 +6,9 @@
     "php",
     "rust",
     "markdown",
-    "python"
+    "python",
+    "vue",
+    "scss"
   ],
   "clangd.semanticHighlighting": true,
   "cSpell.enabledLanguageIds": [
@@ -43,9 +45,5 @@
     "yaml",
     "yml"
   ],
-  "cSpell.userWords": [
-    "INET",
-    "Unorderable",
-    "funcs"
-  ]
+  "cSpell.userWords": ["INET", "Unorderable", "funcs"]
 }
