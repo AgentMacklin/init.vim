@@ -10,6 +10,9 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
+" start FZF at root of project directory
+Plug 'airblade/vim-rooter'
+
 " language servers
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -49,7 +52,6 @@ Plug 'junegunn/goyo.vim'
 
 " comments
 Plug 'scrooloose/nerdcommenter'
-
 
 " Initialize plugin system
 call plug#end()

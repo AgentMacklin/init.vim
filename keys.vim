@@ -26,11 +26,20 @@ nnoremap <silent> <A-K> <C-w>+
 
 " make it easy to toggle nerdtree and fzf
 nnoremap <silent> <C-f> :NERDTreeToggle<CR>
-nnoremap <silent> <C-p> :FZF<CR>
+nnoremap <silent> <C-p> :FZF --reverse --info=inline<CR>
+
 
 " buffer creation
 nnoremap <silent> <A-,> :sp<CR>
 nnoremap <silent> <A-.> :vsp<CR>
+
+" tab management
+nnoremap <A-t> :tabnew<CR>
+nnoremap <A-T> :tabclose<CR>
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
+nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 
 " quit and save
 nnoremap <silent> <C-q> :q<CR>
