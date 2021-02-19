@@ -53,6 +53,10 @@ Plug 'junegunn/goyo.vim'
 " comments
 Plug 'scrooloose/nerdcommenter'
 
+Plug 'Freedzone/kerbovim'
+
+Plug 'tranvansang/octave.vim'
+
 " Initialize plugin system
 call plug#end()
 
