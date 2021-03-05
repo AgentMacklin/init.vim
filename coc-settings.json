@@ -8,7 +8,8 @@
     "markdown",
     "python",
     "vue",
-    "scss"
+    "scss",
+    "c"
   ],
   "clangd.semanticHighlighting": true,
   "cSpell.enabledLanguageIds": [
@@ -45,25 +46,21 @@
     "yaml",
     "yml"
   ],
-  "cSpell.userWords": [
-    "INET",
-    "Unorderable",
-    "funcs"
-  ],
-  "clangd.path": "/home/austen/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
-      "suggest": {
-        "autoTrigger": "always",
-        "enablePreview": true,
-        "minTriggerInputLength": 2
-    },
-    "languageserver": {
-        "kls": {
-            "command": "kls",
-            "args": ["--stdio"],
-            "shell": true,
-            "filetypes": ["kerboscript"],
-            "initializationOptions": {},
-            "settings": {}
-        }
+  "cSpell.userWords": ["INET", "Unorderable", "funcs"],
+  "clangd.path": "/home/alebeau/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+  "suggest": {
+    "autoTrigger": "always",
+    "enablePreview": true,
+    "minTriggerInputLength": 2
+  },
+  "languageserver": {
+    "kls": {
+      "command": "kls",
+      "args": ["--stdio"],
+      "shell": true,
+      "filetypes": ["kerboscript"],
+      "initializationOptions": {},
+      "settings": {}
     }
+  }
 }

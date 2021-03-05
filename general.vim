@@ -31,6 +31,10 @@ autocmd BufWritePre *.h,*.hpp,*.c,*.cc,*.cpp,*.vert,*.frag :call FormatBuffer()
 autocmd BufWinEnter,WinEnter term://* startinsert
 autocmd BufLeave term://* stopinsert
 
+" Instruct rooter to change to the cwd for the open file if not in a project
+" directory
+let g:rooter_change_directory_for_non_project_files = 'current'
+
 " leaving this here and not in keys.vim since it's relevant to terminal ^
 tnoremap <C-h> <C-\><C-n><C-w>h
 tnoremap <C-w>h <C-\><C-n><C-w>h

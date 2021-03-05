@@ -14,7 +14,6 @@ nnoremap <silent> <A-h> <C-W>H
 nnoremap <silent> <A-r> <C-W>r
 nnoremap <silent> <A-R> <C-W>R
 nnoremap <silent> <A-x> <C-W>x
-nnoremap <silent> <A-t> <C-W>T
 
 
 " resize windows
@@ -34,12 +33,12 @@ nnoremap <silent> <A-,> :sp<CR>
 nnoremap <silent> <A-.> :vsp<CR>
 
 " tab management
-nnoremap <A-t> :tabnew<CR>
-nnoremap <A-T> :tabclose<CR>
-nnoremap <C-Left> :tabprevious<CR>
-nnoremap <C-Right> :tabnext<CR>
-nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
-nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
+nnoremap <silent> <A-t> :tabnew<CR>
+nnoremap <silent> <A-T> :tabclose<CR>
+nnoremap <silent> <C-Left> :tabprevious<CR>
+nnoremap <silent> <C-Right> :tabnext<CR>
+nnoremap <silent> <C-Up> :tabmove +<CR>
+nnoremap <silent> <C-Down> :tabmove -<CR>
 
 " quit and save
 nnoremap <silent> <C-q> :q<CR>
@@ -67,6 +66,5 @@ map <silent> <leader>s <Esc>:source $MYVIMRC<CR>
 
 " enter Goyo mode
 map <silent> <leader>g <Esc>:Goyo<CR>
-
 
 map <silent> <leader>cm <Esc>:!note -x %:t &<CR>
