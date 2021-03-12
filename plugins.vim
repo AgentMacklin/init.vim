@@ -57,6 +57,9 @@ Plug 'Freedzone/kerbovim'
 
 Plug 'tranvansang/octave.vim'
 
+" rename the current file
+Plug 'danro/rename.vim'
+
 " Initialize plugin system
 call plug#end()
 
