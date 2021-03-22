@@ -53,6 +53,8 @@ Plug 'tranvansang/octave.vim'
 " rename the current file
 Plug 'danro/rename.vim'
 
+Plug 'arcticicestudio/nord-vim'
+
 " Initialize plugin system
 call plug#end()
 
