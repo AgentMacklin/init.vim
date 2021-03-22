@@ -1,11 +1,13 @@
+let g:nord_italic_comments = 1
 
 " set background
 set background=dark
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set termguicolors
-colorscheme gruvbox-material
+colorscheme nord
 
-let g:airline_theme='gruvbox_material'
+
+let g:airline_theme='nord'
 let g:airline_powerline_fonts = 1
 
 " enable treesitter syntax highlighting
