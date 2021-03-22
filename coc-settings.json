@@ -43,6 +43,7 @@
     "typescript",
     "typescriptreact",
     "vim",
+    "latex",
     "yaml",
     "yml"
   ],
@@ -62,5 +63,6 @@
       "initializationOptions": {},
       "settings": {}
     }
-  }
+  },
+  "rust-analyzer.inlayHints.enable": false
 }

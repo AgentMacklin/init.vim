@@ -71,6 +71,6 @@ map <silent> <leader>g <Esc>:Goyo<CR>
 map <leader>n <Esc>:edit 
 
 " rename the current file
-map <leader>r <Esc>:rename
+map <leader>r <Esc>:rename 
 
 map <silent> <leader>cm <Esc>:!note -x %:t &<CR>
