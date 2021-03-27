@@ -61,6 +61,7 @@ Plug 'tranvansang/octave.vim'
 Plug 'danro/rename.vim'
 
 Plug 'arcticicestudio/nord-vim'
+Plug 'Glench/Vim-Jinja2-Syntax'
 
 " Initialize plugin system
 call plug#end()
