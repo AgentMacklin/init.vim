@@ -1,5 +1,10 @@
 {
-  "languageserver": {},
+  "rust-analyzer.inlayHints.enable": false,
+  "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
+  "clangd.semanticHighlighting": true,
+  "cSpell.userWords": ["INET", "Unorderable", "funcs"],
+  "clangd.path": "/home/alebeau/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+  "python.formatting.provider": "black",
   "coc.preferences.formatOnSaveFiletypes": [
     "json",
     "css",
@@ -9,9 +14,10 @@
     "python",
     "vue",
     "scss",
+    "haskell",
+    "html",
     "c"
   ],
-  "clangd.semanticHighlighting": true,
   "cSpell.enabledLanguageIds": [
     "asciidoc",
     "c",
@@ -47,22 +53,23 @@
     "yaml",
     "yml"
   ],
-  "cSpell.userWords": ["INET", "Unorderable", "funcs"],
-  "clangd.path": "/home/alebeau/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
   "suggest": {
     "autoTrigger": "always",
     "enablePreview": true,
     "minTriggerInputLength": 2
   },
   "languageserver": {
-    "kls": {
-      "command": "kls",
-      "args": ["--stdio"],
-      "shell": true,
-      "filetypes": ["kerboscript"],
-      "initializationOptions": {},
-      "settings": {}
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": [
+        "*.cabal",
+        "stack.yaml",
+        "cabal.project",
+        "package.yaml",
+        "hie.yaml"
+      ],
+      "filetypes": ["haskell", "lhaskell"]
     }
-  },
-  "rust-analyzer.inlayHints.enable": false
+  }
 }

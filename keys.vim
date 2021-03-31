@@ -25,7 +25,7 @@ nnoremap <silent> <A-K> <C-w>+
 
 " make it easy to toggle nerdtree and fzf
 nnoremap <silent> <C-f> :NERDTreeToggle<CR>
-nnoremap <silent> <C-p> :FZF --reverse --info=inline<CR>
+nnoremap <silent> <C-p> :FZF --reverse --info=inline --ansi<CR>
 
 
 " buffer creation

@@ -55,6 +55,11 @@ Plug 'danro/rename.vim'
 
 Plug 'arcticicestudio/nord-vim'
 
+Plug 'elixir-editors/vim-elixir'
+
+Plug 'glench/vim-jinja2-syntax'
+
+
 " Initialize plugin system
 call plug#end()
 
