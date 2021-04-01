@@ -25,7 +25,7 @@ nnoremap <silent> <A-K> <C-w>+
 
 " make it easy to toggle nerdtree and fzf
 nnoremap <silent> <C-f> :NERDTreeToggle<CR>
-nnoremap <silent> <C-p> :FZF --reverse --info=inline<CR>
+nnoremap <silent> <C-p> :FZF --reverse --info=inline --ansi<CR>
 
 
 " buffer creation
@@ -71,6 +71,6 @@ map <silent> <leader>g <Esc>:Goyo<CR>
 map <leader>n <Esc>:edit 
 
 " rename the current file
-map <leader>r <Esc>:rename
+map <leader>r <Esc>:rename 
 
 map <silent> <leader>cm <Esc>:!note -x %:t &<CR>

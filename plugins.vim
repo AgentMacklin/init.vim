@@ -29,9 +29,6 @@ Plug 'mhinz/vim-startify'
 " documentation generator
 Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 
-" removes all background colors
-" Plug 'kjwon15/vim-transparent'
-
 " add closing pairs
 Plug 'jiangmiao/auto-pairs'
 
@@ -40,8 +37,6 @@ Plug 'machakann/vim-sandwich'
 
 " git integration
 Plug 'tpope/vim-fugitive'
-
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 " We recommend updating the parsers on update
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
@@ -53,15 +48,18 @@ Plug 'junegunn/goyo.vim'
 " comments
 Plug 'scrooloose/nerdcommenter'
 
-Plug 'Freedzone/kerbovim'
-
 Plug 'tranvansang/octave.vim'
-
+"
 " rename the current file
 Plug 'danro/rename.vim'
 
 Plug 'arcticicestudio/nord-vim'
 Plug 'Glench/Vim-Jinja2-Syntax'
+
+Plug 'elixir-editors/vim-elixir'
+
+Plug 'glench/vim-jinja2-syntax'
+
 
 " Initialize plugin system
 call plug#end()
