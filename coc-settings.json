@@ -1,5 +1,4 @@
 {
-  "languageserver": {},
   "coc.preferences.formatOnSaveFiletypes": [
     "json",
     "css",
@@ -9,8 +8,11 @@
     "python",
     "vue",
     "scss",
+    "jinja",
+    "html",
     "c"
   ],
+  "emmet.includeLanguages": { "jinja": "html" },
   "clangd.semanticHighlighting": true,
   "cSpell.enabledLanguageIds": [
     "asciidoc",
