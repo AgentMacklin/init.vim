@@ -3,7 +3,6 @@
   "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
   "clangd.semanticHighlighting": true,
   "cSpell.userWords": ["INET", "Unorderable", "funcs"],
-  "clangd.path": "/home/alebeau/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
   "python.formatting.provider": "black",
   "coc.preferences.formatOnSaveFiletypes": [
     "json",
@@ -56,7 +55,6 @@
     "yml"
   ],
   "cSpell.userWords": ["INET", "Unorderable", "funcs"],
-  "clangd.path": "/home/austen/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
   "suggest": {
     "autoTrigger": "always",
     "enablePreview": true,
